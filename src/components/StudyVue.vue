@@ -5,6 +5,10 @@
       <p>{{ user.lastName }} {{ user.firstName }}</p>
     -->
     <h2 v-show="toggle">Hello</h2>
+
+    <ul>
+      <li v-for="color in colors">{{ color }}</li>
+    </ul>
   </div>
 </template>
 
@@ -13,11 +17,11 @@ export default {
   data() {
     return {
       toggle: true,
-      colors: ["red", "green", "blue"],
-      user: {
-        lastName: "Yamada",
-        firstName: "Takashi"
-      }
+      colors: ["red", "green", "blue"]
+      // user: {
+      //   lastName: "Yamada",
+      //   firstName: "Takashi"
+      // }
     };
   }
 };
