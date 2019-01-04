@@ -33,7 +33,8 @@ export default {
         lastName: "Yamada",
         firstName: "Taro",
         age: 28
-      }
+      },
+      now: ""
     };
   },
   methods: {
